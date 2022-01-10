@@ -7,7 +7,7 @@ Usage
 -----
 - Install package in sfra or cartridge root `npm install stream-sfra-logs`
 - Add Script to your `package.json` file:
-  ```json
+  ```
   {
     ...
     "scripts" : {
@@ -21,7 +21,7 @@ Usage
 Features
 --------
 - **Log Prefixes**: defaults to [`warn`, `error`] but you can set any log prefixes with the `--log-prefixes` variable in the script like so:
-  ```json
+  ```
   {
     ...
     "scripts" : {

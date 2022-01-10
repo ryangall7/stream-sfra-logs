@@ -16,5 +16,8 @@
     "moment": "^2.29.1",
     "webdav": "^4.7.0",
     "yargs": "^17.3.1"
+  },
+  "bugs":{
+    "url":"https://github.com/ryangall7/stream-sfra-logs/issues"
   }
 }
