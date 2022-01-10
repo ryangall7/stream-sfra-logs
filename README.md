@@ -5,7 +5,6 @@ This package uses webdav to read recent sandbox log files and output them into y
 
 Usage
 -----
-
 - Install package in sfra or cartridge root `npm install stream-sfra-logs`
 - Add Script to your `package.json` file:
   ```json
@@ -14,6 +13,20 @@ Usage
     "scripts" : {
       ...
       "logs": "stream-sfra-logs"
+    }
+  }
+  ```
+- Run script `npm run logs` to see near real time logging in terminal.
+
+Features
+--------
+- **Log Prefixes**: defaults to [`warn`, `error`] but you can set any log prefixes with the `--log-prefixes` variable in the script like so:
+  ```json
+  {
+    ...
+    "scripts" : {
+      ...
+      "logs": "stream-sfra-logs --log-prefixes warn error custom"
     }
   }
   ```
