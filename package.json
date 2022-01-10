@@ -1,0 +1,20 @@
+{
+  "name": "stream-sfra-logs",
+  "version": "0.0.1",
+  "description": "Stream logs from SF Commerce Cloud to console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "stream-sfra-logs": "./bin/stream-sfra-logs.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "moment": "^2.29.1",
+    "webdav": "^4.7.0",
+    "yargs": "^17.3.1"
+  }
+}
