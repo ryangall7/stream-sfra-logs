@@ -1,6 +1,6 @@
 {
   "name": "stream-sfra-logs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stream logs from SF Commerce Cloud to console",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,6 @@
   },
   "bugs":{
     "url":"https://github.com/ryangall7/stream-sfra-logs/issues"
-  }
+  },
+  "homepage": "https://github.com/ryangall7/stream-sfra-logs"
 }
